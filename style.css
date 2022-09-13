@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Lexend+Deca:wght@200&display=swap');
+
+
+body {
+       background-color:hsl(0, 0%, 95%);
+       font-size: 1em;
+   }
+   
+   
+   main {
+          background-color:hsl(0, 0%, 95%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+   }
+    div {
+        width: 15%; 
+       text-align: left;
+       height: 350px;
+       padding: 20px;
+    }
+          button {
+              background-color: hsl(0, 0%, 95%);
+              border: 1px solid white;
+              border-radius: 25px;
+              text-align: center;
+              padding: 10px 24px;
+              cursor: pointer;
+              margin-top: 65px;
+   
+       }
+
+.Csedan{
+       background-color: hsl(31, 77%, 52%);
+       border-radius: 7px 0 0 7px;
+}
+
+.Cluxury{
+       background-color: hsl(179, 100%, 13%); 
+       border-radius: 0 7px 7px 0; 
+}
+.Csuv{
+       background-color: hsl(184, 100%, 22%);
+}
+       h1 {
+          font-family: 'Big Shoulders Display', cursive;
+          color: hsl(0, 0%, 95%);
+          font-size: 2.3em;
+   }
+   
+   p {   font-family: 'Lexend Deca', sans-serif;
+          color: hsla(0, 0%, 100%, 0.75);
+          font-size:0.85em;
+          
+          
+   }
+     
+      .sedan {
+                  color:hsl(31, 77%, 52%);
+      }
+      .sedan:hover {
+                    background-color: hsl(31, 77%, 52%);
+                    color: hsl(0, 0%, 95%);
+                   }
+      .suv {
+                 color: hsl(184, 100%, 22%);}
+      .suv:hover {
+                  background-color:hsl(184, 100%, 22%);
+                  color: hsl(0, 0%, 95%);
+                 }
+     .luxury {  
+                 color:hsl(179, 100%, 13%);
+     }
+     .luxury:hover {
+                   background-color:  hsl(179, 100%, 13%);
+                   color: hsl(0, 0%, 95%); }  
+
+    @media (max-width: 768px){
+       main{
+              flex-direction: column;
+              height: 100vh;
+       }
+       div{
+              width: 50%;
+       }
+       .Csedan{
+              border-radius: 7px 7px 0 0;
+       }
+       .Cluxury{
+              border-radius: 0 0 7px 7px;
+       }
+    }
+
+    @media (max-width: 400px){
+       main{
+              flex-direction: column;
+              height: 100vh;
+       }
+       div{
+              width:50%;
+       }
+       .Csedan{
+              border-radius: 7px 7px 0 0;
+       }
+       .Cluxury{
+              border-radius: 0 0 7px 7px;
+       }
+    }
