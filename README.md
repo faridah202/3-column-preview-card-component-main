@@ -27,8 +27,8 @@ My challenge was to build the design image displayed in the images folder, using
 
 ### Links
 
-- Solution URL: (https://github.com/faridah202/flexbox-assignment.git)
-- Live Site URL: (https://peaceful-kitsune-f7d4f5.netlify.app/)
+- Solution URL: (https://github.com/faridah202/3-column-preview-card-component-main.git)
+- Live Site URL: (https://stirring-taiyaki-3ecfa4.netlify.app/)
 
 ## My process
 
